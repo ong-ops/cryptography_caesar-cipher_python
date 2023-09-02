@@ -17,5 +17,5 @@ encrypted_text = input("> ")
 print("Enter the key (0 to 25)")
 key = int(input("> "))
 
-decrypted = decrypt_caesar_cipher(encrypted_text, key)
-print(f"Result: {decrypted}")
+plain_text = decrypt_caesar_cipher(encrypted_text, key)
+print(f"Result: {plain_text}")
